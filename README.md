@@ -1,44 +1,62 @@
-![freecompress-freecompress-IMG_20240214_150926](https://github.com/user-attachments/assets/83330155-8305-4463-93ec-62b8c0f4c5e1)# DIGIT - A Digital Wellbeing Assistant
+# DIGIT – A Digital Wellbeing Assistant
 
-![DIGIT App Banner](https://raw.githubusercontent.com/your-username/your-repository/main/banner.png)  <!-- Optional: Create and upload a cool banner image -->
+A sleek, **offline-first Android digital wellbeing assistant** built with **Jetpack Compose**. DIGIT tracks app usage with a gorgeous neon + glassmorphism UI, provides detailed reports, helps set usage goals, and supports both light and dark modes — all while keeping your data **100% private and on-device**.
 
-A sleek, offline-first Android digital wellbeing assistant built with **Jetpack Compose**. DIGIT tracks app usage with a gorgeous neon/glassmorphism UI, provides detailed reports, helps set usage goals, and supports both light and dark modes. It runs entirely on-device, ensuring complete user privacy.
+---
 
 ## ✨ Features
 
-- **📱 App Usage Tracking**: Monitors time spent on apps and categorizes them automatically (Productive, Study, Unproductive, Game, Neutral).
-- **📊 Modern Dashboard**: Visualizes daily usage with a beautiful concentric ring chart and progress bars for your goals.
-- **🎨 Dual Theme**: Seamlessly switch between a neon-infused **Dark Mode** and a clean **Light Mode**.
-- **🎯 Goal Setting**: Set daily limits for media consumption and targets for study/productive apps.
-- **✍️ Manual Logging**: Log offline study time to get a complete picture of your productive hours.
-- **📄 PDF Export**: Generate and download a professional PDF summary of your app usage.
-- **🔒 Privacy-Focused**: 100% offline. No data ever leaves your device. No servers, no accounts.
-- **💎 Glassmorphism UI**: Features a modern, frosted-glass bottom navigation bar and card design.
+- 📱 **App Usage Tracking** – Monitors time spent on apps and auto-categorizes them (Productive, Study, Unproductive, Game, Neutral)
+- 📊 **Modern Dashboard** – Concentric ring charts and progress visuals for daily goals
+- 🎨 **Dual Theme** – Neon-infused Dark Mode + Clean Light Mode
+- 🎯 **Goal Setting** – Set daily limits and productivity targets
+- ✍️ **Manual Logging** – Add offline study or productive time
+- 📄 **PDF Export** – Generate professional usage reports
+- 🔒 **Privacy-Focused** – Fully offline. No servers. No accounts.
+- 💎 **Glassmorphism UI** – Frosted-glass cards & bottom navigation
+
+---
 
 ## 📸 Screenshots
-![WhatsApp Image 2026-01-16 at 11 48 47](https://github.com/user-attachments/assets/5e102858-b573-493b-a378-a6385222098a)
 
-_Note: You will need to take these screenshots and upload them to your repository._
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5e102858-b573-493b-a378-a6385222098a" width="220"/>
+  <img src="https://github.com/user-attachments/assets/e40d4389-45f3-4749-8649-b778024733f1" width="220"/>
+  <img src="https://github.com/user-attachments/assets/183ae6bc-a2ff-44bd-a12f-c31f5c624d06" width="220"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5db604c7-83c1-40df-95fc-f3d9b2def656" width="220"/>
+  <img src="https://github.com/user-attachments/assets/0fa3f4be-b61c-4d37-8a64-0d9c90efd248" width="220"/>
+  <img src="https://github.com/user-attachments/assets/47e02b44-2c3d-4f68-9f05-701a475fbdcd" width="220"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/adf4c1f2-f55e-4a3c-9828-d6ac9a81fa67" width="220"/>
+</p>
+
+---
 
 ## 🛠️ Built With
 
-This project showcases a modern Android development stack.
+This project uses a modern Android development stack:
 
-- **UI Framework**: [Jetpack Compose](https://developer.android.com/jetpack/compose) (Material 3) for a fully declarative and dynamic UI.
-- **Primary Language**: [Kotlin](https://kotlinlang.org/) - including Coroutines for asynchronous operations.
-- **Architecture**: A simple, single-activity architecture with stateful composables.
-- **Core Dependencies**:
-  - `androidx.activity:activity-compose`
-  - `androidx.compose.material3` & `androidx.compose.material`
-  - `androidx.lifecycle:lifecycle-runtime-ktx`
-- **System APIs**:
-  - `UsageStatsManager` for core app usage tracking.
-  - `SharedPreferences` for on-device goal and settings persistence.
-  - `PdfDocument` for generating reports.
+### 🧩 UI
+- **Jetpack Compose (Material 3)** – Fully declarative UI
+- Custom charts & glassmorphism components
 
-## 🚀 Getting Started
+### 🧠 Language
+- **Kotlin**
+- Coroutines for async operations
 
-To build and run the project, you need Android Studio Giraffe or newer.
+### 🏗 Architecture
+- Single-activity
+- Stateful composables
+- Local persistence
 
-1.  **Clone the repository:**
-    
+### 📦 Core Dependencies
+```gradle
+androidx.activity:activity-compose
+androidx.compose.material3
+androidx.compose.material
+androidx.lifecycle:lifecycle-runtime-ktx
