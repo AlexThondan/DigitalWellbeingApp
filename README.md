@@ -1,4 +1,4 @@
-# DIGIT - A Digital Wellbeing Assistant
+![freecompress-freecompress-IMG_20240214_150926](https://github.com/user-attachments/assets/83330155-8305-4463-93ec-62b8c0f4c5e1)# DIGIT - A Digital Wellbeing Assistant
 
 ![DIGIT App Banner](https://raw.githubusercontent.com/your-username/your-repository/main/banner.png)  <!-- Optional: Create and upload a cool banner image -->
 
@@ -16,10 +16,8 @@ A sleek, offline-first Android digital wellbeing assistant built with **Jetpack 
 - **💎 Glassmorphism UI**: Features a modern, frosted-glass bottom navigation bar and card design.
 
 ## 📸 Screenshots
+![WhatsApp Image 2026-01-16 at 11 48 47](https://github.com/user-attachments/assets/5e102858-b573-493b-a378-a6385222098a)
 
-| Dark Mode | Light Mode |
-| :---: | :---: |
-| ![Dark Mode Screenshot](https://raw.githubusercontent.com/your-username/your-repository/main/dark_mode.png) | ![Light Mode Screenshot](https://raw.githubusercontent.com/your-username/your-repository/main/light_mode.png) |
 _Note: You will need to take these screenshots and upload them to your repository._
 
 ## 🛠️ Built With
